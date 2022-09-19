@@ -1,0 +1,63 @@
+body{
+
+    background-color: #000000;
+    background-image: url(R\ \(1\).jpg);
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    
+}
+
+#confidence{
+
+    color: rgb(255,255,255);
+    text-shadow: 7px,7px,1px, black;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+
+
+#score{
+
+    color: rgb(255, 98, 116) ;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;;
+    margin-left: 300px;
+
+}
+
+#timer{
+
+    color: rgb(144, 221, 170);
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    
+    
+}
+
+#sketchToDraw{
+
+    color: rgb(255, 255, 255);
+    text-shadow: 7px, black;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    
+}
+@keyframes example{
+
+    from{box-shadow: 1px 1px 500px #6441A4;}
+    to{box-shadow: 1px 1px 500px #00ff9d;}
+    
+}
+h1{
+
+    color: rgb(255, 255, 255);
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    
+}
+
+#show_sketch{
+
+    background-color: #000000;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-size: large;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
